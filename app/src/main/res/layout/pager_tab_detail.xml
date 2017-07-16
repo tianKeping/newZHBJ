@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.rkp.administrator.zhbj.view.PullToRefreshListView
+        android:id="@+id/lv_list"
+        android:divider="#d7dfd0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:dividerHeight="1px"
+        android:cacheColorHint="#fff" />
+
+</LinearLayout>

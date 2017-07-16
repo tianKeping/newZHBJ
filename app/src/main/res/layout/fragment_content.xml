@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rkp.administrator.zhbj.fragment.LeftMenuFragment">
+    <com.rkp.administrator.zhbj.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.rkp.administrator.zhbj.view.NoScrollViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_drawable"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+       <!-- <RadioButton
+            style="@style/Bottom_Tab_Style"
+            android:text="@string/txt_main"
+            android:id="@+id/rb_main"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+           />-->
+
+        <RadioButton
+            style="@style/Bottom_Tab_Style"
+            android:text="@string/txt_news_center"
+            android:checked="true"
+            android:id="@+id/rb_news"
+            android:drawableTop="@drawable/tab_newscenter_selector"
+            />
+
+        <RadioButton
+            style="@style/Bottom_Tab_Style"
+            android:text="@string/txt_clever_servers"
+            android:id="@+id/rb_serverce"
+            android:drawableTop="@drawable/tab_smartservice_selector"
+            />
+        <!--<RadioButton
+            style="@style/Bottom_Tab_Style"
+            android:text="@string/txt_gaverment_servers"
+            android:id="@+id/rb_gaverment"
+            android:drawableTop="@drawable/tab_govaffairs_selector"
+            />-->
+        <RadioButton
+            style="@style/Bottom_Tab_Style"
+            android:text="@string/txt_setting"
+            android:id="@+id/rb_setting"
+            android:drawableTop="@drawable/tab_setting_selector"
+            />
+    </RadioGroup>
+</LinearLayout>
