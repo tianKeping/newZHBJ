@@ -15,3 +15,12 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keep class com.rkp.administrator.zhbj.adapter.** { *; }
+-keep class com.rkp.administrator.zhbj.application.** { *; }
+-keep class com.rkp.administrator.zhbj.base.** { *; }
+-keep class com.rkp.administrator.zhbj.adapter.** { *; }
+-keep class com.rkp.administrator.zhbj.domain.** { *; }
+-keep class com.rkp.administrator.zhbj.fragment.** { *; }
+-keep class com.rkp.administrator.zhbj.utils.** { *; }
+-keep class com.rkp.administrator.zhbj.view.** { *; }
+-keep class com.rkp.administrator.zhbj.** { *; }
